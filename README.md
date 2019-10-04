@@ -1,13 +1,13 @@
 # latest-celery-flower-docker
 
-> :exclamation: This repository is a fork of an unmaintained [https://github.com/totem/celery-flower-docker](celery-flower-docker) repository, updated with the newest version of the Celery Flower monitoring application.
+> :exclamation: This repository is a fork of an unmaintained [https://github.com/totem/celery-flower-docker](https://github.com/totem/celery-flower-docker) repository, updated with the newest version of the Celery Flower monitoring application.
 
 Docker container containing the Celery Flower monitoring application.
 
 ## Running with docker
 
 In order to run flower using  docker , run
-command: 
+command:
 
 ```
 sudo docker run -it --rm --name flower -p 5555:5555 totem/celery-flower-docker
